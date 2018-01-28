@@ -23,6 +23,7 @@ class WeatherTodayViewController: UIViewController, CLLocationManagerDelegate {
     @IBOutlet weak var windspeed: UILabel!
     @IBOutlet weak var pressure: UILabel!
     @IBOutlet weak var weatherImage: UIImageView!
+    @IBOutlet weak var weatherCondtion: UILabel!
     
     let locationManager = CLLocationManager()
     var currentLocation: CLLocation!
@@ -108,7 +109,7 @@ class WeatherTodayViewController: UIViewController, CLLocationManagerDelegate {
         
         self.cityName.text = viewModel.cityName
         self.temperature.text = viewModel.temperature
-//        self.weatherConditionLabel.text = viewModel.weatherCondition
+        self.weatherCondtion.text = viewModel.weatherCondition
         self.humidity.text = viewModel.humidity
 //        self.precipitationLabel.text = viewModel.precipitationProbability
         self.pressure.text = viewModel.pressure
