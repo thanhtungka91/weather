@@ -113,7 +113,7 @@ class WeatherTodayViewController: UIViewController, CLLocationManagerDelegate {
         self.humidity.text = viewModel.humidity
 //        self.precipitationLabel.text = viewModel.precipitationProbability
         self.pressure.text = viewModel.pressure
-//        self.windSpeedLabel.text = viewModel.windSpeed
+        self.windspeed.text = viewModel.windSpeed
 //        self.windDirectionLabel.text = viewModel.windDirection
         self.weatherImage.image = viewModel.icon
     }
