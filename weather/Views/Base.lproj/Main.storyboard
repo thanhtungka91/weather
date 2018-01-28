@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="On2-QJ-eQI">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="On2-QJ-eQI">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -27,10 +26,14 @@
             </objects>
             <point key="canvasLocation" x="1127" y="-494"/>
         </scene>
-        <!--View Controller-->
+        <!--Weather Today View Controller-->
         <scene sceneID="9rQ-qS-Sz0">
             <objects>
-                <viewController id="poN-0j-lJR" sceneMemberID="viewController">
+                <viewController id="poN-0j-lJR" customClass="WeatherTodayViewController" customModule="weather" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MBC-Wl-pXs"/>
+                        <viewControllerLayoutGuide type="bottom" id="r6p-7y-myw"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="QYx-Hk-zKc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -107,7 +110,6 @@
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="GIG-Lm-HQD"/>
                     </view>
                     <navigationItem key="navigationItem" id="1Ts-24-MXY"/>
                 </viewController>
@@ -136,6 +138,10 @@
         <scene sceneID="nt5-El-6LD">
             <objects>
                 <viewController id="ad2-zd-8W0" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="o1c-gI-A2V"/>
+                        <viewControllerLayoutGuide type="bottom" id="34e-DX-950"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="A06-az-Lez">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -181,13 +187,44 @@
                             </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="fYs-ee-KJb"/>
                     </view>
                     <navigationItem key="navigationItem" id="LXn-op-Hqq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jDk-X7-DQW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2286" y="493"/>
+        </scene>
+        <!--Permissions View Controller-->
+        <scene sceneID="LwQ-Gt-TIG">
+            <objects>
+                <viewController storyboardIdentifier="RequestPermissions" id="KTz-3i-7zi" customClass="PermissionsViewController" customModule="weather" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Yrh-9C-HKL"/>
+                        <viewControllerLayoutGuide type="bottom" id="P9m-SK-kVU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aI4-iF-crK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vYs-t7-1XO">
+                                <rect key="frame" x="163" y="318" width="49" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Accept"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="request location permission" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kqe-Tj-4eD">
+                                <rect key="frame" x="79" y="251" width="211" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SG6-tK-szk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1237" y="-115"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="CIy-rc-tBU">
