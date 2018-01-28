@@ -1,5 +1,5 @@
 //
-//  ForecastWeather.swift
+//  ForecastDayTableViewCell.swift
 //  weather
 //
 //  Created by Vo Thanh Tung on 1/28/18.
