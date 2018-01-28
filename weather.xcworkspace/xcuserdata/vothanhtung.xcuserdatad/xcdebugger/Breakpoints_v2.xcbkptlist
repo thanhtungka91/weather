@@ -1,0 +1,926 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "weather/Controllers/PermissionsViewController.swift"
+            timestampString = "538806943.900726"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "askForLocationPermissions(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "weather/Controllers/PermissionsViewController.swift"
+            timestampString = "538806943.90108"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "askForLocationPermissions(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "weather/Controllers/PermissionsViewController.swift"
+            timestampString = "538806943.901323"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "askForLocationPermissions(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "weather/Controllers/WeatherTodayViewController.swift"
+            timestampString = "538806943.9015599"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "weather/Controllers/WeatherTodayViewController.swift"
+            timestampString = "538806943.901628"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "weather/WeatherDelegate/AppDelegate.swift"
+            timestampString = "538806943.901692"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "weather.AppDelegate.__deallocating_deinit"
+                  moduleName = "weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/WeatherDelegate/AppDelegate.swift"
+                  timestampString = "538803916.348531"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "weather.AppDelegate.__allocating_init() -&gt; weather.AppDelegate"
+                  moduleName = "weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/WeatherDelegate/AppDelegate.swift"
+                  timestampString = "538803916.361276"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "weather.AppDelegate.init() -&gt; weather.AppDelegate"
+                  moduleName = "weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/WeatherDelegate/AppDelegate.swift"
+                  timestampString = "538803916.3639261"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/WeatherDelegate/AppDelegate.swift"
+                  timestampString = "538803916.371245"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "weather/WeatherDelegate/AppDelegate.swift"
+            timestampString = "538806943.901944"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "weather/WeatherDelegate/AppDelegate.swift"
+            timestampString = "538806943.902158"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "weather/Controllers/WeatherTodayViewController.swift"
+            timestampString = "538806943.902378"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "WeatherTodayViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "weather.WeatherTodayViewController.currentLocation.getter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.CLLocation&gt;"
+                  moduleName = "weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/Controllers/WeatherTodayViewController.swift"
+                  timestampString = "538806944.069782"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "109">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "weather.WeatherTodayViewController.currentLocation.setter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.CLLocation&gt;"
+                  moduleName = "weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/Controllers/WeatherTodayViewController.swift"
+                  timestampString = "538806944.073128"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "weather.WeatherTodayViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; weather.WeatherTodayViewController"
+                  moduleName = "weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/Controllers/WeatherTodayViewController.swift"
+                  timestampString = "538806944.076156"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "217">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "weather.WeatherTodayViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;weather.WeatherTodayViewController&gt;"
+                  moduleName = "weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/Controllers/WeatherTodayViewController.swift"
+                  timestampString = "538806944.0796061"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "156">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "weather/Controllers/WeatherTodayViewController.swift"
+            timestampString = "538806943.902439"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "WeatherTodayViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "variable initialization expression of weather.WeatherTodayViewController.locationManager : __ObjC.CLLocationManager"
+                  moduleName = "weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/Controllers/WeatherTodayViewController.swift"
+                  timestampString = "538806944.0885611"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "weather.WeatherTodayViewController.locationManager.getter : __ObjC.CLLocationManager"
+                  moduleName = "weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/Controllers/WeatherTodayViewController.swift"
+                  timestampString = "538806944.0909981"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "109">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "weather.WeatherTodayViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; weather.WeatherTodayViewController"
+                  moduleName = "weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/Controllers/WeatherTodayViewController.swift"
+                  timestampString = "538806944.093098"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "46">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "weather.WeatherTodayViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;weather.WeatherTodayViewController&gt;"
+                  moduleName = "weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/Controllers/WeatherTodayViewController.swift"
+                  timestampString = "538806944.095422"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "21">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "weather/Controllers/WeatherTodayViewController.swift"
+            timestampString = "538806943.902498"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "weather/Controllers/WeatherTodayViewController.swift"
+            timestampString = "538806943.902553"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "setupActivityIndicator()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "weather/Controllers/WeatherTodayViewController.swift"
+            timestampString = "538806943.9026099"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "setupActivityIndicator()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "weather/Controllers/WeatherTodayViewController.swift"
+            timestampString = "538806943.902666"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "viewDidAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x107707bf2">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "weather/Controllers/WeatherTodayViewController.swift"
+            timestampString = "538806943.902723"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "checkPermissions()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "weather.WeatherTodayViewController.checkPermissions() -&gt; ()"
+                  moduleName = "weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/Controllers/WeatherTodayViewController.swift"
+                  timestampString = "538806944.140067"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "49">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in weather.WeatherTodayViewController.checkPermissions() -&gt; ()"
+                  moduleName = "weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/Controllers/WeatherTodayViewController.swift"
+                  timestampString = "538806944.142756"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "21">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "weather/Controllers/PermissionsViewController.swift"
+            timestampString = "538806943.902773"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "PermissionsViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "variable initialization expression of weather.PermissionsViewController.locationManager : __ObjC.CLLocationManager"
+                  moduleName = "weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/Controllers/PermissionsViewController.swift"
+                  timestampString = "538806944.15044"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "weather.PermissionsViewController.locationManager.getter : __ObjC.CLLocationManager"
+                  moduleName = "weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/Controllers/PermissionsViewController.swift"
+                  timestampString = "538806944.1532871"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "109">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "weather.PermissionsViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; weather.PermissionsViewController"
+                  moduleName = "weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/Controllers/PermissionsViewController.swift"
+                  timestampString = "538806944.15534"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "46">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "weather.PermissionsViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;weather.PermissionsViewController&gt;"
+                  moduleName = "weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/Controllers/PermissionsViewController.swift"
+                  timestampString = "538806944.157683"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "21">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "weather/Models/Coordinate.swift"
+            timestampString = "538806809.617334"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "Coordinate"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_33_E4CD5387E09FFF1A564A621F3EF29620_func0"
+                  moduleName = "weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/Models/Coordinate.swift"
+                  timestampString = "538806944.165421"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "weather.Coordinate.sharedInstance.unsafeMutableAddressor : weather.Coordinate"
+                  moduleName = "weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/Models/Coordinate.swift"
+                  timestampString = "538806944.167557"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static weather.Coordinate.sharedInstance.getter : weather.Coordinate"
+                  moduleName = "weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/Models/Coordinate.swift"
+                  timestampString = "538806944.169639"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "77">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static weather.Coordinate.sharedInstance.setter : weather.Coordinate"
+                  moduleName = "weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/Models/Coordinate.swift"
+                  timestampString = "538806944.172298"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "94">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "weather/Models/Coordinate.swift"
+            timestampString = "538806809.617579"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "Coordinate"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_33_E4CD5387E09FFF1A564A621F3EF29620_func1"
+                  moduleName = "weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/Models/Coordinate.swift"
+                  timestampString = "538806944.179803"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "weather.Coordinate.locationManager.unsafeMutableAddressor : __ObjC.CLLocationManager"
+                  moduleName = "weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/Models/Coordinate.swift"
+                  timestampString = "538806944.182161"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static weather.Coordinate.locationManager.getter : __ObjC.CLLocationManager"
+                  moduleName = "weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/Models/Coordinate.swift"
+                  timestampString = "538806944.184708"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "weather/Models/Coordinate.swift"
+            timestampString = "538806809.617776"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "checkForGrantedLocationPermissions(completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "weather/Models/Coordinate.swift"
+            timestampString = "538806809.617975"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "Coordinate"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "weather.Coordinate.latitude.getter : Swift.Double"
+                  moduleName = "weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/Models/Coordinate.swift"
+                  timestampString = "538806944.196027"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "14">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "weather.Coordinate.latitude.setter : Swift.Double"
+                  moduleName = "weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/Models/Coordinate.swift"
+                  timestampString = "538806944.198344"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "weather/Models/Coordinate.swift"
+            timestampString = "538806809.618167"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "Coordinate"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "weather.Coordinate.longitude.getter : Swift.Double"
+                  moduleName = "weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/Models/Coordinate.swift"
+                  timestampString = "538806944.2035609"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "14">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "weather.Coordinate.longitude.setter : Swift.Double"
+                  moduleName = "weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/Models/Coordinate.swift"
+                  timestampString = "538806944.205794"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "weather/Models/Coordinate.swift"
+            timestampString = "538806809.618356"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "checkForGrantedLocationPermissions(completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "weather/Models/Coordinate.swift"
+            timestampString = "538806809.6185451"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "checkForGrantedLocationPermissions(completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static weather.Coordinate.checkForGrantedLocationPermissions(completionHandler: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/Models/Coordinate.swift"
+                  timestampString = "538806944.218374"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "254">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static weather.Coordinate.checkForGrantedLocationPermissions(completionHandler: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/Models/Coordinate.swift"
+                  timestampString = "538806944.223737"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "784">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "weather/Models/Coordinate.swift"
+            timestampString = "538806809.618733"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "checkForGrantedLocationPermissions(completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static weather.Coordinate.checkForGrantedLocationPermissions(completionHandler: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/Models/Coordinate.swift"
+                  timestampString = "538806944.23542"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "466">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static weather.Coordinate.checkForGrantedLocationPermissions(completionHandler: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/Models/Coordinate.swift"
+                  timestampString = "538806944.239102"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "812">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

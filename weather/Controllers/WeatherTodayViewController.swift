@@ -12,7 +12,7 @@ import CoreLocation
 // create model
 var currentWeatherViewModel: CurrentWeatherViewModel!
 
-class WeatherTodayViewController: UIViewController {
+class WeatherTodayViewController: UIViewController, CLLocationManagerDelegate {
     //implement controller here
     
     let locationManager = CLLocationManager()
@@ -25,7 +25,7 @@ class WeatherTodayViewController: UIViewController {
         navigationItem.title = "Today"
         
         //set up location
-        locationManager.delegate = self as? CLLocationManagerDelegate
+        locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
         locationManager.startMonitoringSignificantLocationChanges()
 
@@ -47,15 +47,19 @@ class WeatherTodayViewController: UIViewController {
     }
     
     func checkPermissions() {
+        
+        // go to Coordinate to get the location
         Coordinate.checkForGrantedLocationPermissions() { [unowned self] allowed in
             if allowed {
-                self.locationManager.requestLocation()
+//                self.locationManager.requestLocation()
                 self.getCurrentWeather()
             } else {
                 self.showPermissionsScreen()
             }
         }
     }
+    
+    // call to api and get the value, update to the view
     
     func getCurrentWeather() {
         toggleRefreshAnimation(on: true)
@@ -105,3 +109,28 @@ class WeatherTodayViewController: UIViewController {
     }
     
 }
+//extension ViewController : CLLocationManagerDelegate {
+//
+//    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
+//        print("error:: \(error.localizedDescription)")
+//    }
+//
+//    func locationManager2(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
+//        if status == .authorizedWhenInUse {
+//            self.locationManager.requestLocation()
+//        }
+//    }
+//
+//    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+//
+//        if locations.first != nil {
+//            print("location:: (location)")
+//        }
+//
+//    }
+//
+//}
+
+
+
+

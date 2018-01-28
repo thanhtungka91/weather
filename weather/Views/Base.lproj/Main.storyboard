@@ -210,6 +210,9 @@
                                 <rect key="frame" x="163" y="318" width="49" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Accept"/>
+                                <connections>
+                                    <action selector="askForLocationPermissions:" destination="KTz-3i-7zi" eventType="touchUpInside" id="fNh-eV-uLh"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="request location permission" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kqe-Tj-4eD">
                                 <rect key="frame" x="79" y="251" width="211" height="21"/>
@@ -221,6 +224,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
+                    <connections>
+                        <outlet property="messagePermissionLabel" destination="Kqe-Tj-4eD" id="88r-YT-dwV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SG6-tK-szk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
