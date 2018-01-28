@@ -21,8 +21,11 @@ enum WeatherIcon {
     case mist
     case `default`
     
+    // for detail what is the code
+    //https://openweathermap.org/weather-conditions
     init(iconString: String) {
         switch iconString {
+            //days
         case "01d": self = .clearSky
         case "02d": self = .fewClouds
         case "03d": self = .scatteredClouds
@@ -32,6 +35,17 @@ enum WeatherIcon {
         case "11d": self = .thunderstorm
         case "13d": self = .snow
         case "50d": self = .mist
+            //night
+        case "01n": self = .clearSky
+        case "02n": self = .fewClouds
+        case "03n": self = .scatteredClouds
+        case "04n": self = .brokenClouds
+        case "09n": self = .showerRain
+        case "10n": self = .rain
+        case "11n": self = .thunderstorm
+        case "13n": self = .snow
+        case "50n": self = .mist
+            
         default: self = .default
         }
     }
@@ -40,16 +54,16 @@ enum WeatherIcon {
 extension WeatherIcon {
     var image: UIImage {
         switch self {
-        case .clearSky: return #imageLiteral(resourceName: "sun")
+        case .clearSky: return #imageLiteral(resourceName: "clearsky")
         case .fewClouds: return #imageLiteral(resourceName: "winspeed")
         case .scatteredClouds: return #imageLiteral(resourceName: "sun")
-        case .brokenClouds: return #imageLiteral(resourceName: "sun")
-        case .showerRain: return #imageLiteral(resourceName: "sun")
-        case .rain: return #imageLiteral(resourceName: "sun")
-        case .thunderstorm: return #imageLiteral(resourceName: "sun")
-        case .snow: return #imageLiteral(resourceName: "sun")
-        case .mist: return #imageLiteral(resourceName: "sun")
-        case .default: return #imageLiteral(resourceName: "sun")
+        case .brokenClouds: return #imageLiteral(resourceName: "cloud")
+        case .showerRain: return #imageLiteral(resourceName: "showerRain")
+        case .rain: return #imageLiteral(resourceName: "rains")
+        case .thunderstorm: return #imageLiteral(resourceName: "thunderstorm")
+        case .snow: return #imageLiteral(resourceName: "snowflake")
+        case .mist: return #imageLiteral(resourceName: "mist")
+        case .default: return #imageLiteral(resourceName: "clearsky")
         }
     }
     

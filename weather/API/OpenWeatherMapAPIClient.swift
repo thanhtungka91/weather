@@ -38,6 +38,8 @@ class OpenWeatherMapAPIClient {
             }
             
             if response.response?.statusCode == 200 {
+                // get information from the api, refer data to currentWeather
+                
                 guard let currentWeather = CurrentWeather(json: JSON) else {
                     completion(nil, .jsonParsingFailure)
                     return

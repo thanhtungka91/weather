@@ -10,6 +10,8 @@ import Foundation
 
 import Foundation
 
+//initial
+
 struct CurrentWeather {
     var cityName: String = ""
     var temperature: Double = Double.infinity
@@ -47,6 +49,8 @@ extension CurrentWeather {
         static let weatherCondition = "main"
         
     }
+    
+    // parse json data to model
     
     init?(json: [String: AnyObject]) {
         if let cityNameString = json[Key.cityName] as? String{

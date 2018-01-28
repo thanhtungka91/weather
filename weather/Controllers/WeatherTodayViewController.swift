@@ -15,6 +15,15 @@ var currentWeatherViewModel: CurrentWeatherViewModel!
 class WeatherTodayViewController: UIViewController, CLLocationManagerDelegate {
     //implement controller here
     
+    // for declear layout
+    
+    @IBOutlet weak var cityName: UILabel!
+    @IBOutlet weak var temperature: UILabel!
+    @IBOutlet weak var humidity: UILabel!
+    @IBOutlet weak var windspeed: UILabel!
+    @IBOutlet weak var pressure: UILabel!
+    @IBOutlet weak var weatherImage: UIImageView!
+    
     let locationManager = CLLocationManager()
     var currentLocation: CLLocation!
     var activityIndicator: UIActivityIndicatorView = UIActivityIndicatorView()
@@ -71,7 +80,7 @@ class WeatherTodayViewController: UIViewController, CLLocationManagerDelegate {
                     // update UI
                     self.displayWeather(using: currentWeatherViewModel)
                     // save weather
-                    FirebaseDBProvider.Instance.saveCurrentWeather(currentWeather: currentWeatherViewModel)
+//                    FirebaseDBProvider.Instance.saveCurrentWeather(currentWeather: currentWeatherViewModel)
                     self.toggleRefreshAnimation(on: false)
                 }
             }
@@ -97,39 +106,18 @@ class WeatherTodayViewController: UIViewController, CLLocationManagerDelegate {
     func displayWeather(using viewModel: CurrentWeatherViewModel) {
         //set up view value
         
-//        self.cityNameLabel.text = viewModel.cityName
-//        self.temperatureLabel.text = viewModel.temperature
+        self.cityName.text = viewModel.cityName
+        self.temperature.text = viewModel.temperature
 //        self.weatherConditionLabel.text = viewModel.weatherCondition
-//        self.humidityLabel.text = viewModel.humidity
+        self.humidity.text = viewModel.humidity
 //        self.precipitationLabel.text = viewModel.precipitationProbability
-//        self.pressureLabel.text = viewModel.pressure
+        self.pressure.text = viewModel.pressure
 //        self.windSpeedLabel.text = viewModel.windSpeed
 //        self.windDirectionLabel.text = viewModel.windDirection
-//        self.weatherImageView.image = viewModel.icon
+        self.weatherImage.image = viewModel.icon
     }
     
 }
-//extension ViewController : CLLocationManagerDelegate {
-//
-//    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
-//        print("error:: \(error.localizedDescription)")
-//    }
-//
-//    func locationManager2(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
-//        if status == .authorizedWhenInUse {
-//            self.locationManager.requestLocation()
-//        }
-//    }
-//
-//    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-//
-//        if locations.first != nil {
-//            print("location:: (location)")
-//        }
-//
-//    }
-//
-//}
 
 
 

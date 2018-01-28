@@ -29,7 +29,7 @@ class Constants {
     
     // MARK: API
     
-    static let API_BASE_URL = "http://api.openweathermap.org/data/2.5/"
+    static let API_BASE_URL = "https://api.openweathermap.org/data/2.5/"
     static let API_ENDPOINT_CURRENT_WEATHER = "weather/"
     static let API_ENDPOINT_FORECAST_WEATHER = "forecast/daily/"
     
