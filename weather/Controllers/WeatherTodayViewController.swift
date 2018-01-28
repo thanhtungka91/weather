@@ -118,6 +118,12 @@ class WeatherTodayViewController: UIViewController, CLLocationManagerDelegate {
         self.weatherImage.image = viewModel.icon
     }
     
+    @IBAction func tapShareButton(_ sender: Any) {
+        let sharedText = "\(currentWeatherViewModel.cityName!.uppercased())'s temperature ---> \(currentWeatherViewModel.temperature!)"
+        let activityController = UIActivityViewController(activityItems: [sharedText, currentWeatherViewModel.icon!], applicationActivities: nil)
+        self.present(activityController, animated: true, completion: nil)
+    }
+    
 }
 
 

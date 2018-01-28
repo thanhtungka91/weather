@@ -55,8 +55,8 @@ extension WeatherIcon {
     var image: UIImage {
         switch self {
         case .clearSky: return #imageLiteral(resourceName: "clearsky")
-        case .fewClouds: return #imageLiteral(resourceName: "winspeed")
-        case .scatteredClouds: return #imageLiteral(resourceName: "sun")
+        case .fewClouds: return #imageLiteral(resourceName: "fewcloud")
+        case .scatteredClouds: return #imageLiteral(resourceName: "rainheavycloud")
         case .brokenClouds: return #imageLiteral(resourceName: "cloud")
         case .showerRain: return #imageLiteral(resourceName: "showerRain")
         case .rain: return #imageLiteral(resourceName: "rains")
