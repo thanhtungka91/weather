@@ -82,6 +82,8 @@ class WeatherTodayViewController: UIViewController, CLLocationManagerDelegate {
                     self.displayWeather(using: currentWeatherViewModel)
                     // save weather
 //                    FirebaseDBProvider.Instance.saveCurrentWeather(currentWeather: currentWeatherViewModel)
+                    // save current weather to realm
+//                    RealmDBProvider.Instance.saveCurrentWeather(currentWeather:currentWeatherViewModel)
                     self.toggleRefreshAnimation(on: false)
                 }
             }

@@ -9,4 +9,5 @@ target 'weather' do
   pod 'Alamofire', '~> 4.4'
   pod 'Firebase'
   pod 'Firebase/Database'
+  pod 'RealmSwift'
 end

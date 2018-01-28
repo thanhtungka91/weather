@@ -424,7 +424,7 @@
                   moduleName = "weather"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/Controllers/PermissionsViewController.swift"
-                  timestampString = "538834687.639335"
+                  timestampString = "538846327.621112"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
@@ -439,7 +439,7 @@
                   moduleName = "weather"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/Controllers/PermissionsViewController.swift"
-                  timestampString = "538834687.642176"
+                  timestampString = "538846327.624144"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
@@ -454,7 +454,7 @@
                   moduleName = "weather"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/Controllers/PermissionsViewController.swift"
-                  timestampString = "538834687.64505"
+                  timestampString = "538846327.627055"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
@@ -469,7 +469,7 @@
                   moduleName = "weather"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/Controllers/PermissionsViewController.swift"
-                  timestampString = "538834687.648939"
+                  timestampString = "538846327.629815"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
@@ -2256,7 +2256,7 @@
                   moduleName = "weather"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/Controllers/New%20Group/ForecastDayTableViewCell.swift"
-                  timestampString = "538834687.682256"
+                  timestampString = "538846327.658644"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "12"
@@ -2271,7 +2271,7 @@
                   moduleName = "weather"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/Controllers/New%20Group/ForecastDayTableViewCell.swift"
-                  timestampString = "538834687.68455"
+                  timestampString = "538846327.6617351"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "12"
@@ -2286,7 +2286,7 @@
                   moduleName = "weather"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/Controllers/New%20Group/ForecastDayTableViewCell.swift"
-                  timestampString = "538834687.686954"
+                  timestampString = "538846327.664137"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "12"
@@ -2301,7 +2301,7 @@
                   moduleName = "weather"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/vothanhtung/workspace/swift/weather/weather/Controllers/New%20Group/ForecastDayTableViewCell.swift"
-                  timestampString = "538834687.689274"
+                  timestampString = "538846327.665915"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "12"
@@ -2309,6 +2309,22 @@
                   offsetFromSymbolStart = "46">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "weather/Models/ForecastWeatherViewModel.swift"
+            timestampString = "538843800.533325"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "init(model:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -21,6 +21,7 @@
 		F54DC450201DE6E200B82B48 /* ForecastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54DC44F201DE6E200B82B48 /* ForecastViewController.swift */; };
 		F54DC452201DE72200B82B48 /* ForecastWeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54DC451201DE72200B82B48 /* ForecastWeatherViewModel.swift */; };
 		F54DC454201DE7FD00B82B48 /* ForecastDayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54DC453201DE7FD00B82B48 /* ForecastDayTableViewCell.swift */; };
+		F54DC45A201E239300B82B48 /* RealmDBProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54DC459201E239300B82B48 /* RealmDBProvider.swift */; };
 		F5B821F62015FB3900354411 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B821F52015FB3900354411 /* AppDelegate.swift */; };
 		F5B821FB2015FB3900354411 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B821F92015FB3900354411 /* Main.storyboard */; };
 		F5B821FD2015FB3900354411 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5B821FC2015FB3900354411 /* Assets.xcassets */; };
@@ -64,6 +65,7 @@
 		F54DC44F201DE6E200B82B48 /* ForecastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastViewController.swift; sourceTree = "<group>"; };
 		F54DC451201DE72200B82B48 /* ForecastWeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastWeatherViewModel.swift; sourceTree = "<group>"; };
 		F54DC453201DE7FD00B82B48 /* ForecastDayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastDayTableViewCell.swift; sourceTree = "<group>"; };
+		F54DC459201E239300B82B48 /* RealmDBProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDBProvider.swift; sourceTree = "<group>"; };
 		F5B821F22015FB3900354411 /* weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B821F52015FB3900354411 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5B821FA2015FB3900354411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 			children = (
 				F54DC430201D463D00B82B48 /* Constants.swift */,
 				F54DC441201D51CF00B82B48 /* FirebaseDBProvider.swift */,
+				F54DC459201E239300B82B48 /* RealmDBProvider.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -420,12 +423,16 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-weather/Pods-weather-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,6 +449,7 @@
 			files = (
 				F54DC431201D463D00B82B48 /* Constants.swift in Sources */,
 				F54DC440201D506D00B82B48 /* WeatherIcon.swift in Sources */,
+				F54DC45A201E239300B82B48 /* RealmDBProvider.swift in Sources */,
 				F54DC43C201D492A00B82B48 /* WeatherTodayViewController.swift in Sources */,
 				F54DC436201D46E500B82B48 /* ForecastWeather.swift in Sources */,
 				F54DC438201D473800B82B48 /* Coordinate.swift in Sources */,
