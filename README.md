@@ -36,5 +36,5 @@ and update to source code
 ## Feature Road Map 
 1. Search Cities 
 2. Set Timer for request to notify if rains or thunderstorm 
-3. sroll request 
-4. Using real for saving database 
+3. scroll to fresh request api and update view 
+4. Using realm swift for saving database 
